@@ -1,12 +1,13 @@
-span {
-    font-style: italic;
-    background-color: aqua;
-    color: blue;
-}
+
 .conteiner{
-    display: inline-block;
-    background-color: rgba(152, 212, 144, 0.747);
-}
-.main{
     text-align: center;
+    background-color: rgba(152, 212, 144, 0.747);
+    width: 25%;
+}
+
+.main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
