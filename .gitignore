@@ -1,7 +1,3 @@
 /home_page — копия
-$ echo .vs >> .gitignore
-  
-$ git rm --cached .vs
-rm '.vs'
-  
-$ git commit -m "Start ignoring .vs"
+git rm --cached <myproject\home_page\.vs>
+git commit <gitignore .vs>
